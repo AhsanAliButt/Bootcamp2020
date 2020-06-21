@@ -33,4 +33,4 @@ jobs:
     - name: installing surge
       run: nmp install -g surge
     - name: deploying using surge
-      run : surge ./ bootcamp2020Ahsan.surge.sh --token$ {{ secrets.MY_TOKEN }}
+      run : surge ./ bootcamp2020Ahsan.surge.sh --token ${{ secrets.MY_TOKEN }}
